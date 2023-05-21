@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+}
+h1,h2,h3,h4{
+    color: #3b3b3b;
+    margin: 24px 0px;
+}
+p{
+    color: gray;
+    margin: 24px 0px;
+}
+.bg{
+    background-color: lightgray;
+    padding: 128px;
+    margin: 0px;
+}
+.pp{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-right: 24px;
+}
+.fs5{
+    font-size: 64px;
+}
+.fs4{
+    font-size: 48px;
+}
+.fs3{
+    font-size: 36px;
+}
+.fs2{
+    font-size: 24px;
+}
+.fs1{
+    font-size: 16px;
+}
+
+.mt-5{
+    margin-top: 64px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-left{
+    justify-content: left;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+a{
+    height: 36px;
+    width: 36px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    color:  black;
+    margin: 16px;
+}
+a:hover{
+    color: gray;
+}
+.text-center{
+    text-align: center;
+}
+.container {
+width: 800px;
+}
+
+.skill-level{
+    display: inline-block;
+    height: 16px;
+}
+
+.skill h4, .skill p{
+    margin-bottom:0px;
+}
+.progress-bar{
+    height: 5px;
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 3px;
+}
+
+.progress{
+    background-color: deepskyblue;
+    border-radius: 3px;
+    height: 100%;
+}
+.p3{
+    width: 30%;
+}
+.p4{
+    width: 40%;
+}
+.p5{
+    width: 50%;
+}
+.p6{
+    width: 60%;
+}
+.p7{
+    width: 70%;
+}
+.p8{
+    width: 80%;
+}
+.p9{
+    width: 90%;
+}
+.p10{
+    width:100%
+}
