@@ -40,6 +40,15 @@ p{
 .mt-5{
     margin-top: 64px;
 }
+.mt-0{
+    margin-top: 0;
+}
+.ml-1{
+    margin-left: 16px;
+}
+.mr-1{
+    margin-right: 16px;
+}
 .d-flex{
     display: flex;
 }
@@ -48,6 +57,9 @@ p{
 }
 .justify-left{
     justify-content: left;
+}
+.justify-right{
+    justify-content: right;
 }
 .justify-between{
     justify-content: space-between;
@@ -58,7 +70,7 @@ p{
 .flex-col{
     flex-direction: column;
 }
-a{
+.contact-link{
     height: 36px;
     width: 36px;
     display: inline-block;
@@ -120,4 +132,23 @@ width: 800px;
 }
 .p10{
     width:100%
+}
+.github-link{
+    text-decoration: none;
+
+}
+.github-link:hover{
+    color: blue;
+}
+.project{
+    height: 200px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 100%;
+}
+.project-img{
+    height:200px;
+    width: 400px;
+    border-radius: 10px 0 0 10px;
+    object-fit:cover;
 }
